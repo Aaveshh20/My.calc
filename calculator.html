@@ -239,8 +239,6 @@
           else if(action === 'equals') handleEquals();
         });
       });
-
-      // Keyboard support
       window.addEventListener('keydown', (e)=>{
         if(e.key >= '0' && e.key <= '9') { inputDigit(e.key); e.preventDefault(); }
         else if(e.key === '.') { inputDigit('.'); e.preventDefault(); }
@@ -255,3 +253,4 @@
   </script>
 </body>
 </html>
+
